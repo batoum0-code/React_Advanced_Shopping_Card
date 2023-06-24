@@ -1,0 +1,68 @@
+.ca {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.ca img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ca h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.ca p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.ca .quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: ghostwhite;
+}
+
+.ca .quantity button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: rgb(19, 236, 37);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ca .quantity input {
+  width: 40px;
+  height: 30px;
+  padding: 0;
+  margin: 0 5px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.ca button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

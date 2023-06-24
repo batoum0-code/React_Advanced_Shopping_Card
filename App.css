@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.app-container {
+    padding: 10px 80px 10px 80px;
+    background-color: rgb(24, 20, 32);
+    margin: 0px 100px 0px 100px;
+}
+.app-first-container{
+    background-color: rgb(33, 36, 48);
+}

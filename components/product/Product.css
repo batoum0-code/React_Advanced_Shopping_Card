@@ -1,0 +1,108 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(187, 206, 223);
+    border: 2px sild greenyellow;
+    border-radius: 10px;
+    margin: 10px 5px 2px 5px;
+    box-shadow:2px 2px 6px gray ;
+    transition: 1.3s;
+}
+
+.img-card{
+    width: 300px;
+    height: 180px;
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.card-details h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(230, 56, 3);
+}
+.card-details p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: blue;
+}
+.card-details p span{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(18, 184, 18);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 4px;
+    cursor: pointer;
+    color: azure;
+    background-color: rgb(52, 52, 245);
+    transition: 1.3s;
+}
+button:hover{
+    color: aquamarine;
+    transform: scale(1.1);
+}
+.remove-btn{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    padding: 4px;
+    cursor: pointer;
+    margin-top: 9px;
+    width: 100px;
+    color: azure;
+    background-color: red;
+    margin-left: 100px;
+    transition: 1.3s;
+}
+.remove-btn:hover{
+    color: aquamarine;
+    transform: scale(1.1);
+}
+.plus{
+    margin-left: 10px;
+    width: 34px;
+    margin-bottom: 6px;
+}
+.minus{
+    margin-bottom: 6px;
+    width: 34px;
+    margin-right: 10px;
+}
+.buttons span{
+    font-size: 1.6rem;
+}
+h1{
+    color: azure;
+}
+.start-add-button{
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.qte{
+    color: rgb(255, 102, 0);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-right: 2px;
+}
